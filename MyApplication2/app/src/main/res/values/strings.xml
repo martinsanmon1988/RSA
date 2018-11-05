@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SecurIDSample</string>
+	<string name="ok">OK</string>
+	<string name="cancel">Cancel</string>
+	
+	<!-- main screen -->
+	<string name="tokenListPrompt">Select a token</string>
+	<string name="noTokenInstalled">No token installed</string>
+	<string name="secsRemaining">%d sec remaining</string>
+	<string name="importTokenMenuText">Import Token</string>
+	<string name="deleteTokenMenuText">Delete Token</string>
+	<string name="renameTokenMenuText">Rename Token</string>
+	<string name="importTokenMenuTextCondensed">Import</string>
+	<string name="deleteTokenMenuTextCondensed">Delete</string>
+	<string name="renameTokenMenuTextCondensed">Rename</string>
+	<string name="aboutMenuText">About</string>
+	<string name="defaultCode">--------</string>
+	<string name="token">Select a token: </string>
+	
+	<!-- about screen -->
+	<string name="sdkName">RSA SecurID SDK %s for Android</string>
+	<string name="sampleApp">Sample Project</string>
+	<string name="deviceID">Device ID: %s</string>
+	<string name="copyright">Copyright © 2012 EMC Corporation. All Rights Reserved.</string>
+	<string name="unavailable">Unavailable</string>
+	<string name="close">Close</string>
+	
+	<!-- rename dialog -->
+	<string name="renameDialogTitle">Rename Token</string>
+	<string name="renameDialogMessage">Token name:</string>
+	
+	<!-- enter pin dialog -->
+	<string name="enterPinDialogTitle">Enter PIN</string>
+	<string name="enterPinDialogMessage">Enter a PIN with 4&#8211;8 digits</string>
+	
+	<!-- import screen -->
+	<string name="ctf">CTF</string>
+	<string name="ctkip">CT-KIP</string>
+	<string name="file">File</string>
+	<string name="ctfLabel">CTF:</string>
+	<string name="ctfHint">ctf string (required)</string>
+	<string name="passwordLabel">Password:</string>
+	<string name="ctfPasswrodHint">password for CTF (optional)</string>
+	<string name="ctkipURL">CT-KIP URL:</string>
+	<string name="ctkipURLHint">URL for CT-KIP (required)</string>
+	<string name="ctkipActivationCode">Activation Code:</string>
+	<string name="ctkipActivationCodeHint">activation code for CT-KIP (required)</string>
+	<string name="allowUntrustedCert">Allow untrusted server cert</string>
+	<string name="fileLabel">SDTID file:</string>
+	<string name="fileHint">SDTID file path (required)</string>
+	<string name="filePasswordHint">password for SDTID file (optional)</string>
+	<string name="importButtonText">Import</string>
+	
+	<!-- Errors -->
+	<string name="databasefullexception">Database is full. Maximum number of tokens can be imported is 10.</string>
+	<string name="databaseexception">Token database operation failed.</string>
+	<string name="deviceidinaccessibleexception">Failed to retrieve device information.</string>
+	<string name="duplicatetokenexception">Duplicate token.</string>
+	<string name="expiredtokenexception">Token is expired.</string>
+	<string name="invaliddevicebindingexception">Token is not intended for this device.</string>
+	<string name="tokennotfoundexception">Token is not found.</string>
+	<string name="tokenimportexception">Token import failed.</string>
+	<string name="general">Error. An exception is thrown.</string>
+</resources>

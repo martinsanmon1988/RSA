@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TKNBatch>
+    <TKNHeader>
+        <Version>0</Version>
+        <Origin>N/A</Origin>
+        <Dest>N/A</Dest>
+        <Name>N/A</Name>
+        <FirstToken>N/A</FirstToken>
+        <LastToken>N/A</LastToken>
+        <NumTokens>0</NumTokens>
+        <Secret>kyYjU+vw6LJJV4SVMwmzmA==</Secret>
+        <DefBirth>2013/04/08</DefBirth>
+        <DefDeath>2020/10/08</DefDeath>
+        <DefDigits>6</DefDigits>
+        <DefInterval>30</DefInterval>
+        <DefAlg>1</DefAlg>
+        <DefMode>0</DefMode>
+        <DefPrecision>2400</DefPrecision>
+        <DefSmallWin>315</DefSmallWin>
+        <DefMediumWin>2160</DefMediumWin>
+        <DefLargeWin>2160</DefLargeWin>
+        <DefAddPIN>0</DefAddPIN>
+        <DefLocalPIN>0</DefLocalPIN>
+        <DefCopyProtection>0</DefCopyProtection>
+        <DefPinType>0</DefPinType>
+        <DefKeypad>1</DefKeypad>
+        <DefProtLevel>0</DefProtLevel>
+        <DefRevision>0</DefRevision>
+        <DefTimeDerivedSeeds>1</DefTimeDerivedSeeds>
+        <DefAppDerivedSeeds>0</DefAppDerivedSeeds>
+        <DefFormFactor>20000001</DefFormFactor>
+        <HeaderMAC>EWokeTjq6BAU2bEg7HPPRQ==</HeaderMAC>
+    </TKNHeader>
+    <TKN>
+        <SN>000100000471</SN>
+        <Seed>=kwW+rBlTuGRgb5vIBCiEgQ==</Seed>
+        <UserFirstName>test</UserFirstName>
+        <UserLastName>data</UserLastName>
+        <UserLogin>tdata</UserLogin>
+        <PinType>0</PinType>
+        <TokenMAC>TcOWJKm+YwF6rdm+FZJvZw==</TokenMAC>
+    </TKN>
+    <TKNTrailer>
+        <BatchSignature>pNeH0pQq2FYo/TGpVBuB0Cek/8lKJDXFe4U6QB8AXgt4BpcT8xN79MrWSAVJq/3VT7sM4kmXBmS8LGjU32fv4shXu7vX6XrxWjaevit9HdyDYvn3HpqmT51YVLtl97aUfvxHMlRBYuR4Sqtcw8sa2kziP1RVkEbkl60o3vsODrQ=</BatchSignature>
+        <BatchCertificate>MIICeTCCAWGgAwIBAgIQM0UxREIwQkEzMDlGODEzMDANBgkqhkiG9w0BAQQFADBBMT8wPQYDVQQDEzZTZWN1cml0eSBEeW5hbWljcyBUZWNobm9sb2dpZXMsIEluYy4gUHJpbWFyeSBDQSBSb290IDEwHhcNMDMwMTA5MTcyNjE4WhcNMjMwMTA0MTcyNjE4WjA0MTIwMAYDVQQDEylTZWN1cml0eSBEeW5hbWljcyBUZWNobm9sb2dpZXMgQUNFL1NlcnZlcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2S/yX6t3iswRFURxNIFyNbidElmkHFgm1I2ch0bZBK7UCSy+XCf4RpIT1GuNIlBiCZHVzkcLqRavDGyXIfIhLNmaq5sX+W5JjvfWsDvHPXMUpeHDdsoeqiRiurAYijYtQ/bu6tG/lseTRCRsYgjS7GAbNF6rE1mASZSO7rMwop8CAwEAATANBgkqhkiG9w0BAQQFAAOCAQEAWrys7JmM1bOh8E1HAV7T8MMruGaCDU5dN8Sr8zFkpzzry/taNS2YluPGXhl/5F74wJnGol9gu2AmhSfIAH1LCJQ3KmHrPMxJFwwe3HojI8koLyk+VQxxxPESTZT074LDrIQxE6WORoEF9gVtIn2hr9yDm68b4HYY9/MkF44UQpFmJCIQzUyaIIevcVWPOKUq+jm134uTbGe8C7s43wVzGZqgO53CzLaiwU2Ot+IlQj9PAjnHRw3fYZoznYGlZ9SNS57L3CCseCp7S9GVWdi1QTLChVA51qXnoOEXMl9CXt6MvA08r0bKws+ia0bIYOOOBHpW4uJyvjp/NIFk9PndUg==</BatchCertificate>
+    </TKNTrailer>
+</TKNBatch>

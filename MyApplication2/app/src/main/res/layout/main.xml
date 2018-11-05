@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_gradient" 
+    >
+    
+   	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="left"			
+		android:gravity="center"				
+	    android:layout_marginLeft="10dp"
+	    android:layout_marginTop="10dp"
+	    android:text="@string/token"
+	    style="@style/nicknameTextFont" />
+   	
+    <Spinner         
+        android:id="@+id/tokenList"        
+        android:layout_width="fill_parent"        
+        android:layout_height="wrap_content" 
+        android:prompt="@string/tokenListPrompt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+    />
+	
+    <TextView
+			android:id="@+id/nicknameLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"			
+			android:gravity="center"				
+		    android:layout_marginTop="20dp"
+		    android:text="@string/noTokenInstalled"
+		    style="@style/nicknameTextFont"
+		    />
+    <FrameLayout 
+		    xmlns:android="http://schemas.android.com/apk/res/android"
+		    android:id="@+id/codeAndBoxFrame"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"	
+		    android:layout_marginTop="10dp" 
+		    >
+		    	<ImageView
+		            android:layout_width="wrap_content"
+		            android:layout_height="fill_parent"
+		            android:layout_gravity="center"
+		            android:scaleType="fitXY"
+		            android:src="@drawable/code_field_lowres2_nine"
+		            android:minHeight="93dp"
+		            android:minWidth="240dp"
+            	/>
+
+		   		<TextView
+		   		    android:id="@+id/otpText"
+		   		    android:layout_width="wrap_content"
+		   		    android:layout_height="wrap_content"
+		   		    android:layout_gravity="center"
+		   		    android:background="#ffffff"
+		   		    android:gravity="center_horizontal"
+		   		    android:maxLength="10"
+		   		    android:minWidth="200dp"
+		   		    android:text="@string/defaultCode"
+		   		    style="@style/codeTextFont"
+					/>  		    		 
+		</FrameLayout>
+		
+    	<TextView
+			android:id="@+id/secsRemainingLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"			
+			android:gravity="center"				
+		    android:layout_marginTop="20dp"
+		    android:text=""
+		    android:textColor="#000000"
+		    />
+</LinearLayout>

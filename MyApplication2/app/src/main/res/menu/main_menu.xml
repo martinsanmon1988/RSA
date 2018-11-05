@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/importTokenMenu" android:title="@string/importTokenMenuText" android:titleCondensed="@string/importTokenMenuTextCondensed" android:icon="@android:drawable/ic_menu_upload"></item>
+    <item android:id="@+id/deleteTokenMenu" android:title="@string/deleteTokenMenuText" android:titleCondensed="@string/deleteTokenMenuTextCondensed" android:icon="@android:drawable/ic_menu_delete"></item>
+    <item android:id="@+id/renameTokenMenu" android:title="@string/renameTokenMenuText" android:titleCondensed="@string/renameTokenMenuTextCondensed" android:icon="@android:drawable/ic_menu_edit"></item>
+    <item android:id="@+id/aboutMenuItem" android:title="@string/aboutMenuText" android:titleCondensed="@string/aboutMenuText" android:icon="@android:drawable/ic_menu_info_details"></item>
+    
+
+</menu>
